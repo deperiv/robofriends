@@ -33,7 +33,7 @@ class App extends Component {
         return !robots.length? <h1 className="tc">Loading</h1> :
         (
             <div className="tc">
-                <h1 className="ma10">RoboFriends</h1>
+                <h1 className="ma10">SuperRoboFriends</h1>
                 <SearchBox searchChange={this.onSearchChange}/>
                 <Scroll>
                     <ErrorBoundary>
